@@ -123,7 +123,7 @@ web3.wallet.contractSign(opts)
 web3.wallet.contractSignTypedData(opts)
 ```
 
-### Potential Additional Methods
+### Possible Future Methods
 - Handling for delegate signing (state channels)
   - `wallet_getDelegateAddress( opts )`
   - `wallet_delegateSign( opts )` and `wallet_delegateSignTypedData( opts )`
