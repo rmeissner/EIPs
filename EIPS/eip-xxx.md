@@ -95,7 +95,7 @@ web3.wallet.signTypedData(opts)
 
 ### wallet_contractSign, wallet_contractSignTypedData
 
-TODO: Should this be combined with the normal `wallet_sign` and `wallet_signTypedData` and return a oobjects that includes a signature type
+TODO: Should this be combined with the normal `wallet_sign` and `wallet_signTypedData` and return an object that includes a signature type
 TODO: Specify behaviour if not supported by the wallet
 TODO: Specify return data exactly (signature is not of a specific length)
 
@@ -127,6 +127,9 @@ web3.wallet.contractSignTypedData(opts)
   - `wallet_getDelegateAddress( opts )`
   - `wallet_delegateSign( opts )` and `wallet_delegateSignTypedData( opts )`
   - `wallet_registerDelegateKey( opts )`
+- Handling for subscriptions
+- Possibility to submit a collection of transactions
+- Support for universal login
 
  ## Rationale
 <!--The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
