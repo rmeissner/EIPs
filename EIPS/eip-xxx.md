@@ -17,7 +17,7 @@ New methods that allow dapps to interact with all different types of wallets.
  ## Abstract
 <!--A short (~200 word) description of the technical issue being addressed.-->
 
-A collection of methods that can by implemented by any wallet provider (e.g. Web3 JavaScript wallet browsers) that enables advanced interaction for dapps. This will enable the support of new wallet types that are emerging.
+A collection of methods that can be implemented by any wallet provider (e.g. Web3 JavaScript wallet browsers) that enables advanced interaction for dapps. This will enable the support of new wallet types that are emerging.
 
  ## Motivation
 <!--The motivation is critical for EIPs that want to change the Ethereum protocol. It should clearly explain why the existing protocol specification is inadequate to address the problem that the EIP solves. EIP submissions without sufficient motivation may be rejected outright.-->
@@ -36,11 +36,10 @@ Related EIPs and projects:
 - [Gnosis Safe (smart contract based multi-signature wallet)](https://github.com/gnosis/safe-contracts)
 - [Delegate signing for state channels](https://docs.google.com/document/d/1PrkP61rzwIQDbJx1YxVl1ncwQeyNE9e0PFRVw77-FSo/edit)
 
-
  ## Specification
 <!--The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Ethereum platforms (go-ethereum, parity, cpp-ethereum, ethereumj, ethereumjs, and [others](https://github.com/ethereum/wiki/wiki/Clients)).-->
 
-The following new methods are provided
+The following new methods are provided:
 
 ### wallet_getActiveWallet
 ```javascript
@@ -96,7 +95,9 @@ web3.wallet.signTypedData(opts)
 ### wallet_contractSign, wallet_contractSignTypedData
 
 TODO: Should this be combined with the normal `wallet_sign` and `wallet_signTypedData` and return an object that includes a signature type
+
 TODO: Specify behaviour if not supported by the wallet
+
 TODO: Specify return data exactly (signature is not of a specific length)
 
 See https://github.com/ethereum/EIPs/issues/1271
