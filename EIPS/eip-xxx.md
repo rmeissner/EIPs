@@ -2,7 +2,7 @@
 eip: <to be assigned>
 title: Add `wallet_` methods to Provider
 author: Richard Meissner (@rimeissner)
-discussions-to: TBD
+discussions-to: https://ethereum-magicians.org/t/add-wallet-methods-to-improve-dapp-to-wallet-interaction/1848
 status: WIP
 type: Interface
 category: Interface
