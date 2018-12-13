@@ -39,8 +39,6 @@ Related EIPs and projects:
  ## Specification
 <!--The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Ethereum platforms (go-ethereum, parity, cpp-ethereum, ethereumj, ethereumjs, and [others](https://github.com/ethereum/wiki/wiki/Clients)).-->
 
-The following new methods are provided:
-
 ### Types
 * WILDCARD - `String`
   * Indicates that all possible values of a type are supported
