@@ -119,8 +119,8 @@ MUST handle a transaction based on the TRANSACTION_HANDLING_TYPE
   * `to`: `DATA`, 20 Bytes - (optional when creating new contract) The address the transaction is directed to.
   * `value`: `QUANTITY` - (optional) Integer of the value sent with this transaction
   * `data`: `DATA` - The compiled code of a contract OR the hash of the invoked method signature and encoded parameters. For details see Ethereum Contract ABI
-1. `String` - CHAIN_ID that MUST be used for this transaction or WILDCARD if any chain can be used
-1. `String` - TRANSACTION_HANDLING_TYPE that MUST be used for this transaction or WILDCARD if any type can be used
+2. `String` - CHAIN_ID that MUST be used for this transaction or WILDCARD if any chain can be used
+3. `String` - TRANSACTION_HANDLING_TYPE that MUST be used for this transaction or WILDCARD if any type can be used
 
 ```
 params: [
